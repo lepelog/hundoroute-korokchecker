@@ -42,4 +42,5 @@ for region in korokcounts.keys():
         for missingnumber in range(isindex+1,korokcounts[region]+1):
             print('Missing korok: '+region+str(missingnumber).zfill(2))
             missing+=1
-print('Total missing count: '+missing)
+print('Total missing count: '+str(missing))
+input('Press enter to exit...')
