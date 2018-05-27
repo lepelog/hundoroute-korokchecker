@@ -8,7 +8,7 @@ from config import filename
 if not filename.endswith('.txt'):
     filename=filename+'.txt'
 
-with open(filename,'r') as routefile:
+with open(filename,'r',encoding='utf-8') as routefile:
     routetext=routefile.read()
 
 # H: Hebra, T: Tabantha, R: Ridgelands, K: Woodland A: Akkala C: Central L: Lake E: Eldin D: Dueling Peaks W: Wasteland G: Gerudo N: Necludia F: Faron P: Plateau X: Castle, Z: Lanayru
